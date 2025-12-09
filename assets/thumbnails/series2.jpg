@@ -1,0 +1,45 @@
+ <svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#203a43"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Cyber background -->
+  <rect width="400" height="225" fill="url(#grad7)"/>
+  
+  <!-- Grid pattern -->
+  <g stroke="#00dbde" stroke-width="1" stroke-opacity="0.3">
+    <!-- Horizontal lines -->
+    <line x1="0" y1="45" x2="400" y2="45"/>
+    <line x1="0" y1="90" x2="400" y2="90"/>
+    <line x1="0" y1="135" x2="400" y2="135"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+    
+    <!-- Vertical lines -->
+    <line x1="80" y1="0" x2="80" y2="225"/>
+    <line x1="160" y1="0" x2="160" y2="225"/>
+    <line x1="240" y1="0" x2="240" y2="225"/>
+    <line x1="320" y1="0" x2="320" y2="225"/>
+  </g>
+  
+  <!-- Binary code effect -->
+  <text x="50" y="40" fill="#00dbde" font-family="Courier New" font-size="14" opacity="0.5">
+    01010101
+  </text>
+  <text x="200" y="100" fill="#00dbde" font-family="Courier New" font-size="14" opacity="0.5">
+    11001100
+  </text>
+  <text x="300" y="180" fill="#00dbde" font-family="Courier New" font-size="14" opacity="0.5">
+    10101010
+  </text>
+  
+  <!-- Text -->
+  <text x="200" y="70" text-anchor="middle" fill="#00dbde" font-family="Arial" font-size="28" font-weight="bold">
+    CYBER CITY
+  </text>
+  <text x="200" y="100" text-anchor="middle" fill="white" font-family="Arial" font-size="16">
+    Pilot Episode
+  </text>
+</svg>
