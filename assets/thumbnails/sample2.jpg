@@ -1,0 +1,37 @@
+ <svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c6426e"/>
+      <stop offset="100%" stop-color="#642b73"/>
+    </linearGradient>
+    <radialGradient id="heartGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff758c"/>
+      <stop offset="100%" stop-color="#ff7eb3"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="225" fill="url(#grad2)"/>
+  
+  <!-- Heart shape -->
+  <path d="M200 120 
+           C220 80, 260 80, 280 120 
+           C280 160, 200 200, 200 200 
+           C200 200, 120 160, 120 120 
+           C140 80, 180 80, 200 120Z" 
+        fill="url(#heartGrad)" fill-opacity="0.7"/>
+  
+  <!-- Text -->
+  <text x="200" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="28" font-weight="bold">
+    ROMANCE
+  </text>
+  <text x="200" y="100" text-anchor="middle" fill="#ffebee" font-family="Arial" font-size="16">
+    Midnight in Paris
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="60" r="8" fill="#ffebee" fill-opacity="0.5"/>
+  <circle cx="300" cy="60" r="8" fill="#ffebee" fill-opacity="0.5"/>
+  <circle cx="150" cy="180" r="6" fill="#ffebee" fill-opacity="0.5"/>
+  <circle cx="250" cy="180" r="6" fill="#ffebee" fill-opacity="0.5"/>
+</svg>
