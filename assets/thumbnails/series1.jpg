@@ -1,0 +1,28 @@
+ <svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5c2d91"/>
+      <stop offset="100%" stop-color="#3a1c71"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="225" fill="url(#grad6)"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="200" cy="112.5" r="40" stroke="#4cc9f0" stroke-width="3" fill="none"/>
+  <line x1="240" y1="152.5" x2="280" y2="192.5" stroke="#4cc9f0" stroke-width="3"/>
+  
+  <!-- Question mark -->
+  <text x="200" y="125" text-anchor="middle" fill="#4cc9f0" font-family="Arial" font-size="80" font-weight="bold">
+    ?
+  </text>
+  
+  <!-- Text -->
+  <text x="200" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">
+    MYSTERY VALLEY
+  </text>
+  <text x="200" y="85" text-anchor="middle" fill="#b0b0b0" font-family="Arial" font-size="16">
+    Season 1 • Episode 1
+  </text>
+</svg>
