@@ -1,0 +1,31 @@
+ <svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#A0522D"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="225" fill="url(#grad8)"/>
+  
+  <!-- Castle silhouette -->
+  <rect x="150" y="120" width="100" height="40" fill="#5D4037"/>
+  <rect x="170" y="100" width="60" height="20" fill="#4E342E"/>
+  
+  <!-- Towers -->
+  <rect x="150" y="80" width="20" height="40" fill="#3E2723"/>
+  <rect x="230" y="80" width="20" height="40" fill="#3E2723"/>
+  
+  <!-- Battlements -->
+  <rect x="150" y="80" width="100" height="10" fill="#3E2723"/>
+  
+  <!-- Text -->
+  <text x="200" y="70" text-anchor="middle" fill="#FFD700" font-family="Arial" font-size="32" font-weight="bold"
+        style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+    ANCIENT WARRIORS
+  </text>
+  <text x="200" y="100" text-anchor="middle" fill="#D7CCC8" font-family="Arial" font-size="18">
+    Episode 1: The Beginning
+  </text>
+</svg>
