@@ -1,0 +1,34 @@
+ <svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff416c"/>
+      <stop offset="100%" stop-color="#ff4b2b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="225" fill="url(#grad5)"/>
+  
+  <!-- Explosion effect -->
+  <circle cx="200" cy="112.5" r="50" fill="orange" fill-opacity="0.3">
+    <animate attributeName="r" values="50;60;50" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Action lines -->
+  <line x1="50" y1="50" x2="350" y2="50" stroke="white" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="50" y1="175" x2="350" y2="175" stroke="white" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Text -->
+  <text x="200" y="100" text-anchor="middle" fill="white" font-family="Arial" font-size="36" font-weight="bold" 
+        style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+    ACTION
+  </text>
+  <text x="200" y="130" text-anchor="middle" fill="#ffebee" font-family="Arial" font-size="20">
+    Mountain Climb
+  </text>
+  
+  <!-- Mountain peaks -->
+  <path d="M150 175 L175 140 L200 175" fill="white" fill-opacity="0.3"/>
+  <path d="M200 175 L225 150 L250 175" fill="white" fill-opacity="0.4"/>
+  <path d="M250 175 L275 160 L300 175" fill="white" fill-opacity="0.5"/>
+</svg>
