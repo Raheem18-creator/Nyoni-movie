@@ -1,0 +1,35 @@
+ [
+  {
+    "id": 1,
+    "title": "The Adventure Begins",
+    "description": "An epic journey through unknown lands",
+    "duration": "1:45:30",
+    "thumbnail": "assets/thumbnails/movie1.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "year": 2023,
+    "genre": "Adventure",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Midnight in Paris",
+    "description": "A romantic story set in the city of lights",
+    "duration": "2:15:45",
+    "thumbnail": "assets/thumbnails/movie2.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "year": 2022,
+    "genre": "Romance",
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "title": "Space Odyssey",
+    "description": "Journey through the cosmos",
+    "duration": "1:30:20",
+    "thumbnail": "assets/thumbnails/movie3.jpg",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "year": 2024,
+    "genre": "Sci-Fi",
+    "rating": 4.8
+  }
+ ]
