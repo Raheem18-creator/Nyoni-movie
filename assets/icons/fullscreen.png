@@ -1,0 +1,16 @@
+ <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle background -->
+  <circle cx="24" cy="24" r="22" fill="#4cc9f0" stroke="white" stroke-width="1"/>
+  
+  <!-- Top-left arrow -->
+  <path d="M14 14L18 10V14H14Z" fill="white" stroke="white" stroke-width="1"/>
+  
+  <!-- Top-right arrow -->
+  <path d="M34 14L30 10V14H34Z" fill="white" stroke="white" stroke-width="1"/>
+  
+  <!-- Bottom-left arrow -->
+  <path d="M14 34L18 38V34H14Z" fill="white" stroke="white" stroke-width="1"/>
+  
+  <!-- Bottom-right arrow -->
+  <path d="M34 34L30 38V34H34Z" fill="white" stroke="white" stroke-width="1"/>
+</svg>
